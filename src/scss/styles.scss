@@ -1,0 +1,85 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+/* Change size of the images with this ! :^) */
+.content-image {
+    transform:scale(1,1) ;
+}
+
+* {
+    font-family: 'montserrat', sans-serif !important;
+  }
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    .whatsize-jumbotron-logo {
+        transform: scale(.55,.55);
+    }
+    .headerbutton-download {
+        margin-top: -6.5rem;
+        margin-left: 5em;
+        transform: scale(.75,.75);
+    }
+    
+    .headerbutton-buy {
+        margin-top: -6.5rem;
+        margin-left: -2.5em;
+        transform: scale(.75,.75);
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .whatsize-jumbotron-logo {
+        transform: scale(.65,.65);
+    }
+    .headerbutton-download {
+        margin-top: -5rem;
+        margin-left: 5em;
+        transform: scale(.85,.85);
+    }
+    
+    .headerbutton-buy {
+        margin-top: -5rem;
+        margin-left: -2em;
+        transform: scale(.85,.85);
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    .whatsize-jumbotron-logo {
+        transform: scale(.75,.75);
+    }
+    .headerbutton-download {
+        margin-top: -3.5rem;
+        margin-left: 4em;
+    }
+    
+    .headerbutton-buy {
+        margin-top: -3.5rem;
+    }
+}
+
+
+.jumbotron {
+    padding-top: 1rem;
+    padding-bottom: 2.5rem; // or whatever you want the value to be, such as 1rem.
+    border-radius: 0 !important;
+}
+
+.bottom-header {
+    padding-top: 240px;
+    padding-bottom: 280px;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    letter-spacing: -.04em;
+}
+
+.card-img-top {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+}
