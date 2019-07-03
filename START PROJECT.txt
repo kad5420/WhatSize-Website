@@ -1,0 +1,3 @@
+Run Website with Gulp:
+cd /Users/kodydeda/WebDevelopment/WhatSize/WhatSize-website
+gulp
