@@ -7,6 +7,12 @@ Redesigned the logo and homepage for [whatsizemac.com](https://www.whatsizemac.c
 [![Everything Is AWESOME](https://user-images.githubusercontent.com/45678211/84602778-bfb63a80-ae57-11ea-974a-d2299d31cb1c.png)](https://www.youtube.com/watch?v=PmDC9Q2WZpM)
 *YouTube Video Demo*
 
+## Features
+
+* Material Design
+* Mobile Friendly
+* Simplified Layout
+
 ## Built With
 
 * [Visual Studio Code](https://code.visualstudio.com/) - HTML & CSS Editor
